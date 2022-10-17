@@ -14,7 +14,7 @@ const CardItem = (props) => {
   const { item, detailHandler } = props
   return (
     <Card>
-      <div className="p-2">
+      <div className="p-2" style={{height: 250}}>
         <img alt="Sample" src={item.img_url} className="w-100" />
       </div>
       <CardBody>
