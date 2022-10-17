@@ -1,0 +1,23 @@
+@import url('./layout/Header.scss');
+@import url('./layout/Footer.scss');
+@import url('./root.scss');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+//page
+@import url('./pages/login.scss');
+@import url('./pages/detail.scss');
+@import url('./pages/not_found.scss');
+
+//common
+@import url('../common/styles/styles.scss');
+
+
+//custom 
+.body{
+  margin-top: 82px !important;
+}
+.icon-size {
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}

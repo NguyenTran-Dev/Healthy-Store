@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--color-primary);
+  padding: 8px 0;
+  position: fixed;
+  z-index: 9;
+  display: block;
+  width: 100%;
+  top: -2px;
+  &--search {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+  }
+}
+
+.nav {
+  &-item {
+    :hover {
+      background-color: rgba(204, 204, 204, 0.166);
+    }
+  }
+  a {
+    color: white !important; 
+  }
+}

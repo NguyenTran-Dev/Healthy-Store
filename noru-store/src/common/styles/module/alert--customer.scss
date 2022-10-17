@@ -1,0 +1,27 @@
+.alert--customer {
+  width: 100%;
+  max-width: 350px;
+  margin: 90px 15px 0 0;
+  transition: 0.3s;
+  pointer-events: initial;
+  z-index: 9999;
+  top:0;
+  right: 0;
+  position: fixed;
+  pointer-events: auto;
+  &-enter-active,
+  &-leave-active {
+    transition: 0.3s;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  &-enter-from,
+  &-leave-to {
+    transition: 0.3s;
+    -webkit-transform: translateX(30%);
+    transform: translateX(30%);
+    opacity: 0;
+  }
+}

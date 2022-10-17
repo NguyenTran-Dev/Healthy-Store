@@ -1,0 +1,14 @@
+.text-input {
+  input {
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.1px solid var(--color-border);
+    margin: 0 auto;
+    &::placeholder{
+      opacity: 0.4;
+      font-size: 15px;
+    }
+  }
+}
